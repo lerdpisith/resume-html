@@ -1,0 +1,76 @@
+/*
+ Main css for Iphone device
+*/
+/* Path: css/device/iphone.css */
+/* Compare this snippet from css/reset.css: */
+
+/*
+  Device: Iphone SE
+*/
+@media screen and (max-height: 668px) and (max-width: 375px) {
+    .container {
+        padding: 35px;
+        min-height: 100vh;
+    }
+    .content {
+        max-width: 300px;
+    }
+    .avatar {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .name {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .about {
+        font-size: 14px;
+    }
+    .contract {
+        margin-bottom: 20px;
+    }
+    .contract-item {
+        margin: 2px;
+    }
+    .button {
+        padding: 8px 16px 10px 16px;
+        font-size: 14px;
+    }
+}
+
+/*
+ Device: Iphone XR
+*/
+
+@media screen and (min-height: 896px) and (max-width: 414px) {
+    .container {
+        padding: 40px;
+        min-height: 100vh;
+    }
+    .content {
+        max-width: 300px;
+    }
+    .avatar {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    .name {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+    .about {
+        font-size: 16px;
+    }
+    .contract {
+        margin-bottom: 30px;
+    }
+    .contract-item {
+        margin: 2px;
+    }
+    .button {
+        padding: 8px 16px 10px 16px;
+        font-size: 14px;
+    }
+}
